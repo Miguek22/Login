@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #2f4b67;
+    color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #3675b4; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h2 {
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff; 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3675b4;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.editable {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+button {
+    padding: 8px 16px;
+    background-color: #007BFF; 
+    color: #fff;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+button.guardar-btn{
+    background-color: #28a745; 
+}
+
+button.editar-btn {
+    background-color: #ffc107; 
+}
+
+button.eliminar-btn, button.descartar-btn {
+    margin-left: 10px;
+    background-color: #dc3545; 
+}
+
+#agregar-btn, #agregar-usuario-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
